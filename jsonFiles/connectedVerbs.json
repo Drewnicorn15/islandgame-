@@ -1,0 +1,21 @@
+{
+    "pick": {
+        "take": 1,
+        "pick": 2
+    },
+    "drop": {
+        "leave": 1,
+        "drop": 2
+    },
+    "go": {
+        "move": 1,
+        "jump": 2,
+        "relocate": 3,
+        "go": 4
+    },
+    "attack": {
+        "hit": 1,
+        "charge": 2,
+        "attack": 3
+    }
+}

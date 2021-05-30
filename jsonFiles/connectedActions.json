@@ -1,0 +1,12 @@
+{
+    "forward": {
+        "through": 1,
+        "straight": 2,
+        "pick": 3
+    },
+    "back": {
+        "leave": 1,
+        "back": 2,
+        "backward": 3
+    }
+}
