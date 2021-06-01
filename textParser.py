@@ -2,7 +2,8 @@ import json
 
 def TextParser(prompt):
     prompt1, prompt2 = prompt.split(" ")
-
+    if prompt1[0] == "!":
+        special(prompt1)
     with open("jsonFiles/connectedVerbs.json", "r") as verbList:
         data = json.loads(verbList.read())
         
@@ -20,4 +21,7 @@ def TextParser(prompt):
                     prompt2 = i
 
     return(prompt1, prompt2)
-
+def special(input):
+    command = input[0:]
+    if command == "actions":
+        pass #avaible actions for the player 
