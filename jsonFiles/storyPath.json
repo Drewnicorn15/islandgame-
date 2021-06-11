@@ -1,0 +1,41 @@
+{
+    "prompt": "You find yourself on the ground, surrounded by snow covered sand and the broken pieces of what you remember to be a boat. As you get up you see in the west, the smoke of a not so distant volcano rises. To the southeast, a taiga forest. You decide to head towards the taiga forest instead of the ominous volcano. As you move closer to the forest to begin to hear growls, it almost sounds like dogs until wolves with bone like structures on their heads, jump out from the bushes and trees, they begin moving towards you slowly; You begin to remember why you are on this island, the volcano is going to erupt and you need to save as many of these new species as possible. What are you going to do. Will you leave or will you stay",
+
+    "Flee": {
+        "prompt": "You dash past the wolves as fast as you can when you see two paths ahead of you, both leading to a different place in the forest. Pick either Path One or Path Two.",
+        "Path One": {
+            "prompt": "You continue running towards the path to the left, eventually losing the wolves and reaching a lake that's frozen over. The lake seems solid enough to walk on, and walking around you see another new species, a strange bunny-salamander hybrid, but you might not have enough time to escape if you waste time to get the animal, so you could go closer to another side of the forest or waste more time by going around to try to catch the animal. What will you do. Catch the animal, go around the lake, or go to another part of the forest.",
+            "Catch Animal": "You begin sprinting across the lake when you begin hearing cracks but it's too  late, the ice breaks underneath your legs, and you fall in the freezing cold water, you try to get out but your hands are bloody from the shards and the ice is too slippery, as your legs get severe frostbite you die. Game Over",
+            "Go": {
+                "prompt": "You go to another part of the forest when you begin hearing heavy, loud footsteps, you look behind you to see a large mammoth-bull-like creature with white fur, your first instinct is to run and run, you do, to the edge of the island which is a snowfield. The snowfields are empty yet safe from the mamull and the boneheaded wolves, maybe you could stay a while to cool down but then the mamull comes out of the forest, but it hasn't seen you yet, you see some large shrubs and grass to your left where you can hide and wait it out or you could try to face the mamull down. Will you hide or will you fight",
+                "Hide": "You run to the shrubs and lie down in them making sure you are a bit cover to further hide your position, the mamull continues to the pace the snowfields, minutes turn to hours and when the mamull finally leaves you realize you can’t move, frostbite has hit you and hypothermia begins setting in, and you die. Game Over",
+                "Fight": {
+                    "prompt": "You see a large stick and a sharp rock with a hole in it, you quickly run and make it into a makeshift spear and face the mamull, it begins to charge at you, you dodge and see it has a deep cut on the right side of its neck perfect to throw the spear at, but the mamull has once again turn around and begins charging. What will you do to survive. Will you Dodge or will you Throw",
+                    "Dodge": {
+                        "prompt": "You dodge to the right and throw the spear at its neck, which pierces its windpipe killing it, you notice it's getting colder and the mammoth fur is heavy enough to upgrade your jacket to survive longer, you skin it and upgrade your jacket. You go to sleep. You wake up and decide to go to either the taiga or see if the volcano is going to erupt soon or not. Which one will you go to, taiga or volcano?",
+                        "Taiga": "You go to the taiga, only to see a herd of mamulls running towards your direction, there are too many to use your spear, you attempt to run but the mamulls outrun and trample you, killing you. Game Over.",
+                        "Volcano": {
+                            "prompt": "You head to the volcano, a faint smell of ash fills the air, in a small cave, bundles of taiga wood could help build a raft to escape but in the distance closer to the volcano which you know is going to erupt soon is another new species, birdlike and yellow, you dub it the ‘skird’. Will you get the wood or will you save the skird.",
+                            "Wood": {
+                                "prompt": "Animal Check",
+                                "true": "You grab the wood and run to the part of the island where your wrecked boat was, taking the animals you captured along the way and assemble the boat and leave. You are rescued by local Alaskans and given multiple awards for your discovery of these new species.The End",
+                                "false": "You grab the wood and run to the part of the island where your wrecked boat was, taking the animals you captured along the way and assemble the boat and leave. You are rescued by local Alaskans and called insane and delirious after describing the species of animals you saw. The End."
+                            },
+                            "Skird": {
+                                "prompt": "Animal Check",
+                                "true": "You grab the skird and run to the part of the island where your wrecked boat was, taking the animals you captured along the way and assemble the boat using wood strewn around and leave. You are rescued by local Alaskans and given multiple awards for your discovery of these new species.The End",
+                                "false": "You grab the skird and get to your wreaked boat. You look around but there is no wood to use to rebuild. As you forage for wood, the volcano blows up, covers you in ash, and kills you. The end."
+                            }
+                        }
+                    },
+                    "Throw": "You throw the speaker which sticks into its face causing it to roar harder and charge even faster, hitting you directly in the chest, shattering your ribcage and collarbone and puncturing your vital organs, killing you. Game Over. "
+                }
+
+            }
+
+        },
+        "Path Two": "You continue running towards the path in the middle, eventually reaching a dead end, the wolves caught up and mauled you. Game Over"
+    },
+
+    "Stay": "The wolves surround you and one-by-one attack you. They leave after hearing  a herd of Mamulls coming. You bleed out into the ground and die. Game over."
+}
